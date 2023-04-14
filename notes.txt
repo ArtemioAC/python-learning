@@ -16,8 +16,8 @@ Python notes
         - Online option: https://replit.com/languages/python3
         - Jupyter notebooks
 
-    Any of these options will work but I would say it's better to start with a text editor to understand how run python code using a terminal. Both VS Code and Sublime Text have 
-    an integrated terminal and running code is very easy, also, they have extensions or add-ons to make code development easier.
+    Any of these options will work but I would say it's better to start with a text editor to understand how run python code using a terminal. Both VS Code
+    and Sublime Text have an integrated terminal and running code is very easy, also, they have extensions or add-ons to make code development easier.
 
 - Install Git - https://git-scm.com/downloads
     - Make sure you know what is Git and how to use it.
@@ -27,4 +27,33 @@ Python notes
 ====Python Objects and Data Structures====
 ==========================================
 
-Python Data Types - Data types are the foundation of programming languages, these are the basic blocks of code.
+
+-> Python Data Types - Data types are the foundation of programming languages, these are the basic blocks of code, useful to build data objects.
+Data types      - Keywords  -   Examples
+Integers        - int       -   Whole numbers, 200, 400, 500000.
+Floats          - float     -   Decimal point, 2.5, 100.0
+Strings         - str       -   Sequence of characters enclosed in single or double quotes, 'a string', "another string"
+Booleans        - bool      -   Logical values indicating True or False
+
+
+-> Data Structures -> Can contain data objects or structures
+Lists           - list      -   Ordered sequence of objects             Example: [10, "hola"]
+Dictionaries    - dict      -   Unordered Key:Value pairs               Example: {"key":"value"}
+Tuples          - tup       -   Ordered inmutable sequence of objects   Example: (10,'cadena')
+Sets            - set       -   Unordered collection of unique objects  Example: {"hola", "adios"}
+
+
+-> Python Numbers
+In Python the most common numbers are Integers and Floats. 
+Due to the computer's ability to represent decimal numbers there are some limitations: https://docs.python.org/2/tutorial/floatingpoint.html
+
+Operators -> Syntax: number operator number
+Addition            +
+Substraction        -
+Multiplication      *
+Division            /   Example: 5 / 2 == 2.5
+Exact Division      //  Example: 5 // 2 == 2
+Module              %   Returns the remainder of the division. Example: 5 % 2 == 1
+Power               **  
+
+Parenthesis         ()  can be used to give precedence  2 + 10 * 4 is not equal to (2 + 10) * 4
