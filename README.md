@@ -1,6 +1,6 @@
 # Python learning
 
-Initial version of a Python learning journey.
+Initial version of a Python learning journey. You will find a _notes.txt_ file that contains relevant information about the specific chapter.
 
 ## Initial Setup
 
@@ -11,6 +11,8 @@ Open a terminal and type the following command in your terminal to confirm Pytho
 ```python
 python --version
 ```  
+
+If you get a _command not found_ message google how to add the python command to your PATH variable.
 
 - Alternative: Use Anaconda, as mentioned in the course it includes Python and much more useful tools.
 
@@ -25,4 +27,4 @@ python --version
 Any of these options will work but I would say it's better to start with a text editor to understand how run python code using a terminal. Both VS Code and Sublime Text have an integrated terminal and running code is very easy, also, they have extensions or add-ons to make code development easier.
 
 ### Install Git
-Make sure you know what is Git and how to use it. Download Git from the [official website](https://git-scm.com/downloads).
+Make sure you know [what is Git and how to use it](https://youtu.be/VdGzPZ31ts8). Download Git from the [official website](https://git-scm.com/downloads).
