@@ -18,8 +18,8 @@ If you get a _command not found_ message google how to add the python command to
 
 ### Install a text editor or IDE of your choice
 
-- Text editors: (Visual Studio Code)[https://code.visualstudio.com/download], (Sublime Text)[https://www.sublimetext.com/3]
-- IDE: (PyCharm Community Edition)[https://www.jetbrains.com/pycharm/download/]
+- Text editors: [Visual Studio Code](https://code.visualstudio.com/download), [Sublime Text](https://www.sublimetext.com/3)
+- IDE: [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/)
 - Alternatives: 
     - Online option: https://replit.com/languages/python3
     - Anaconda/Jupyter notebooks
