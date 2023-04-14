@@ -1,6 +1,6 @@
 # Python learning
 
-Initial version of a Python learning journey. You will find a _notes.txt_ file that contains relevant information about the specific chapter.
+Initial version of a Python learning journey. You will find a _notes.txt_ file that contains relevant information about the specific chapter. There will be also a python file with some code examples.
 
 ## Initial Setup
 
@@ -18,11 +18,11 @@ If you get a _command not found_ message google how to add the python command to
 
 ### Install a text editor or IDE of your choice
 
-- Text editors: Visual Studio Code, Sublime Text
-- IDE: PyCharm Community Edition
+- Text editors: (Visual Studio Code)[https://code.visualstudio.com/download], (Sublime Text)[https://www.sublimetext.com/3]
+- IDE: (PyCharm Community Edition)[https://www.jetbrains.com/pycharm/download/]
 - Alternatives: 
     - Online option: https://replit.com/languages/python3
-    - Jupyter notebooks
+    - Anaconda/Jupyter notebooks
 
 Any of these options will work but I would say it's better to start with a text editor to understand how run python code using a terminal. Both VS Code and Sublime Text have an integrated terminal and running code is very easy, also, they have extensions or add-ons to make code development easier.
 
