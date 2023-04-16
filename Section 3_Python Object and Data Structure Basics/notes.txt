@@ -7,15 +7,33 @@ Python notes
 ==========================================
 
 
--> Python Data Types - Data types are the foundation of programming languages, these are the basic blocks of code, useful to build data objects.
+-> Python Data Types 
+    - Data types are the foundation of programming languages, these are the basic blocks of code, useful to build data objects or variables.
+
 Data types      - Keywords  -   Examples
-Integers        - int       -   Whole numbers, 200, 400, 500000.
-Floats          - float     -   Decimal point, 2.5, 100.0
+
+Integers        - int       -   Whole numbers: [200, 400, 500000, 0b10, 0xFF, 0o7]
+    - In Python 3 there is no limit to how long an integar value can be, it will depend on the computer resources.
+    - A sequence of decimal digits without any prefix is a decimal number. There are default prefixes to indicate a base other tan 10:
+        - Base 2/Binary :       0b
+        - Base 8/Octal :        0o
+        - Base 16/Hexadecimal : 0x    
+
+
+Floating-point  - float     -   Decimal point: [2.5, 100.0, 4., .2, .4e7, 4.2e-4]
+    - In Python a a float value is specified with a decimal point. 
+    - Optionally, scientific notation can be used:
+        - Character 'e' or 'E' followed by a positive or negative integer.
+    - The maximum value a floating-point number can have is approximately 1.8E308. Python will indicate a number greater than that by the string 'inf'
+    - The closest a nonzero number can be to zero is approximately 5E-324. Anything closer to zero than that is effectively zero.
+
 Strings         - str       -   Sequence of characters enclosed in single or double quotes, 'a string', "another string"
 Booleans        - bool      -   Logical values indicating True or False
 
+     
+-> Data Structures
+    - Can contain data objects or nested structures
 
--> Data Structures -> Can contain data objects or structures
 Lists           - list      -   Ordered sequence of objects             Example: [10, "hola"]
 Dictionaries    - dict      -   Unordered Key:Value pairs               Example: {"key":"value"}
 Tuples          - tup       -   Ordered inmutable sequence of objects   Example: (10,'cadena')
@@ -23,8 +41,8 @@ Sets            - set       -   Unordered collection of unique objects  Example:
 
 
 -> Python Numbers
-In Python the most common numbers are Integers and Floats. 
-Due to the computer's ability to represent decimal numbers there are some limitations: https://docs.python.org/2/tutorial/floatingpoint.html
+    -In Python the most common numbers are Integers and Floats. 
+    Due to the computer's ability to represent decimal numbers there are some limitations: https://docs.python.org/2/tutorial/floatingpoint.html
 
 Operators -> Syntax: number operator number
 Addition            +
@@ -32,7 +50,12 @@ Substraction        -
 Multiplication      *
 Division            /   Example: 5 / 2 == 2.5
 Exact Division      //  Example: 5 // 2 == 2
-Module              %   Returns the remainder of the division. Example: 5 % 2 == 1
-Power               **  
+Module              %   Returns the remainder of the division. Example: 5 % 2 == 1  -> Useful to know if a number is even or odd.
+Power               **  2 ** 10 == 1024
 
 Parenthesis         ()  can be used to give precedence  2 + 10 * 4 is not equal to (2 + 10) * 4
+
+
+
+-> Variables 
+    - A variable in python is symbolic name that is a reference to a particular object
